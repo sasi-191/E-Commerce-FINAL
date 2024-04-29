@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="images/logo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Ecommerce </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8347e772e4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <section id="header">
+        <a href=""><img src="images/logo.png" alt="image"></a>
+
+        <div>
+            <ul class="sidebar">
+                <li onclick=hide()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24"
+                            viewBox="0 -960 960 960" width="24">
+                            <path
+                                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                        </svg></i></a></li>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="shop.html">SHOP</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+
+        <div id="navbar">
+            <ul>
+                <li class="hidemobile"><a href="index.html">HOME</a></li>
+                <li class="hidemobile"><a href="shop.html">SHOP</a></li>
+                <li class="hidemobile"><a href="about.html">ABOUT</a></li>
+                <li class="hidemobile"><a href="blog.html">BLOG</a></li>
+                <li class="hidemobile"><a href="contact.html">CONTACT</a></li>
+                <li><a href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <li class="hidemenu" onclick=show()>
+                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="30">
+                            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                        </svg></a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="ourhead">
+        <h1>OUR BLOGS</h1>
+    </section>
+
+    <section id="blog">
+        <div class="blogbox">
+            <div class="blogimg">
+                <img src="images/shirt1.png" alt="image">
+            </div>
+            <div class="blogdetails">
+                <h1>NEW FLORAL MEN'S SHIRT</h1>
+                <p>When I shop, the world gets better, and the world is better, but then it's not, and I need to do it
+                    again.</p>
+                <br>
+                <a href="#">continue reading.........</a>
+            </div>
+        </div>
+        <div class="blogbox">
+            <div class="blogimg">
+                <img src="images/shirt1.png" alt="image">
+            </div>
+            <div class="blogdetails">
+                <h1>NEW FLORAL MEN'S SHIRT</h1>
+                <p>When I shop, the world gets better, and the world is better, but then it's not, and I need to do it
+                    again.</p>
+                <br>
+                <a href="#">continue reading.........</a>
+            </div>
+        </div>
+        <div class="blogbox">
+            <div class="blogimg">
+                <img src="images/shirt1.png" alt="image">
+            </div>
+            <div class="blogdetails">
+                <h1>NEW FLORAL MEN'S SHIRT</h1>
+                <p>When I shop, the world gets better, and the world is better, but then it's not, and I need to do it
+                    again.</p>
+                <br>
+                <a href="#">continue reading.........</a>
+            </div>
+        </div>
+        <div class="blogbox">
+            <div class="blogimg">
+                <img src="images/shirt1.png" alt="image">
+            </div>
+            <div class="blogdetails">
+                <h1>NEW FLORAL MEN'S SHIRT</h1>
+                <p>When I shop, the world gets better, and the world is better, but then it's not, and I need to do it
+                    again.</p>
+                <br>
+                <a href="#">continue reading.........</a>
+            </div>
+        </div>
+    </section>
+
+  <section class="footer">
+        <div class="footer-row">
+            <div class="footer-col">
+                <h4 style="text-align: center;">ABOUT</h4>
+                <p>If you would like to experience the best of online shopping for men, women and kids in India, you are
+                    at the right place.
+                    Myntra is the ultimate destination for fashion and lifestyle, being host to a wide array of
+                    merchandise including clothing, footwear, accessories, jewellery, personal care products and more.
+                </p>
+            </div>
+            <div class="footer-col">
+                <h4>CATEGORIES</h4>
+                <ul class="links">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">SHOP</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#">BLOGS</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>MY ACCOUNT</h4>
+                <ul class="links">
+                    <li><a href="#">Sign in</a></li>
+                    <li><a href="#">Your Orders</a></li>
+                    <li><a href="#">Your Addresses</a></li>
+                    <li><a href="#">Devices</a></li>
+                    <li><a href="#">Preferences</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Newsletter</h4>
+                <p>
+                    Subscribe to our newsletter for a weekly dose
+                    of news, updates, helpful tips, and
+                    offers.
+                </p>
+                <form action="#">
+                    <input type="text" placeholder="Your email" required>
+                    <button type="submit">SUBMIT</button>
+                </form>
+                <div class="icons">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+            </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
